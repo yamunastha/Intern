@@ -1,0 +1,379 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(62, 61, 61);
+  position: sticky;
+  top: 0;
+  z-index: +1;
+  padding: 4px;
+}
+.navbar .logo{
+  color: whitesmoke;
+  font-size: 1rem;
+}
+.navbar ul{
+  display: flex;
+  list-style: none;
+  margin: 30px 0px;
+  margin-left: 100px;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  margin: 20px;
+  padding: 10px;
+  color: whitesmoke;
+}
+
+.navbar .butt{
+  margin: 10px;
+}
+
+.home{
+ width: 100%;
+}
+     /* home */
+.home .text{
+  margin: 250px 495px;
+  text-align: center;
+ 
+}
+
+.text h3{
+  font-size: 30px;
+}
+
+.text p{
+  margin-left: 45px ;
+}
+
+/* aboutme */
+.divider{
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.divider::before, .divider::after{
+  flex: 1;
+  content: '';
+  padding: 0.1px;
+  margin: 4px;
+  background-color: black;
+}
+
+.about{
+  width: 100%;
+  display: flex;
+}
+
+.about .text1{
+  text-align: justify;
+  margin-left: 200px;
+  margin-right: 120px;
+}
+
+.about .photo{
+  margin-right: 200px;
+  margin-bottom: 20px;
+ 
+}
+
+.photo img{
+  width: 300px;
+  height: 340px;
+}
+
+
+/* experience */
+.divider1{
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.divider1::before, .divider1::after{
+  flex: 1;
+  content: '';
+  padding: 0.1px;
+  margin: 4px;
+  background-color: black;
+}
+
+.container{
+  display: flex; 
+}
+
+.container .left{
+  padding: 10px;
+  border-right: 1px solid black;
+  margin: 10px 30px;
+}
+
+.left .border-bottom{
+  border-bottom: 1px solid black;
+}
+
+.container .right{
+  line-height: 20px;
+  
+}
+
+.right ul{
+ text-align: justify;
+}
+
+
+.container1{
+  display: flex;
+}
+.container .right{
+  padding: 10px;
+  
+  margin: 10px 30px;
+}
+
+
+
+/* featured project */
+.divider2{
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.divider2::before, .divider2::after{
+  flex: 1;
+  content: '';
+  padding: 0.1px;
+  margin: 4px;
+  background-color: black;
+}
+
+.project{
+  width: 100%;
+  display: flex;
+  
+}
+
+
+
+.project .text{
+  margin-top: 20px;
+  margin-right: 150px;
+  text-align: justify;
+  
+}
+
+.text .name{
+  font-size: 1.5rem;
+}
+
+.text .pro{
+  display: flex;
+  font-size: small;
+  
+
+}
+
+.text .icon{
+  margin-left: 45px;
+  
+}
+
+
+.project1{
+  width: 100%;
+  display: flex;
+}
+
+.project1 .text1{
+  margin-top: 20px;
+  margin-left: 30px;
+  text-align: justify;
+ 
+
+}
+
+.text1 .name1{
+  font-size: 1.5rem;
+  margin-left: 600px;
+}
+
+
+.text1 .pro1{
+  display: flex;
+  font-size: small;
+  margin-left: 450px;
+  justify-content: space-between;
+}
+
+
+.text1 .icon1{
+  margin-left: 710px;
+}
+
+
+.project1 .image{
+  margin: 30px 30px;
+}
+.image img{
+  width: 300px;
+  height: 250px;
+}
+
+/* other */
+
+
+.divider3{
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.divider3::before, .divider3::after{
+  flex: 1;
+  content: '';
+  padding: 0.1px;
+  margin: 4px;
+  background-color: black;
+}
+
+.other{
+  display: flex;
+  margin-top: 20px;
+}
+
+.other .left{
+  display: flex;
+}
+.left .one{
+  display: flex;
+}
+
+.pic img{
+  width: 200px;
+  height: 200px;
+  margin-left: 10px;
+}
+
+.left .word{
+  margin-left: 10px;
+}
+.word .parag{
+  font-size: small;
+}
+.left .prog{
+  display: flex;
+ 
+}
+
+.left .two{
+  display: flex;
+  margin-left: 25px;
+}
+
+.two .word1{
+  margin-left: 10px;
+}
+
+.pic1 img{
+  width: 200px;
+  height: 200px;
+}
+
+.word1 .parag1{
+  font-size: small;
+}
+
+.left .prog1{
+  display: flex;
+}
+
+
+
+.other1{
+  display: flex;
+  margin-top: 20px;
+}
+
+.other1 .right{
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.right .three{
+  display: flex;
+}
+
+.pic2 img{
+  width: 200px;
+  height: 200px;
+  margin-left: 10px;
+}
+
+.right .word2{
+  margin-left: 10px;
+}
+.word2 .parag2{
+  font-size: small;
+}
+.right .prog2{
+  display: flex;
+ 
+}
+
+.right .four{
+  display: flex;
+  margin-left: 25px;
+}
+
+.four .word3{
+  margin-left: 10px;
+}
+
+.pic3 img{
+  width: 200px;
+  height: 200px;
+}
+
+.word3 .parag3{
+  font-size: small;
+}
+
+.right .prog3{
+  display: flex;
+}
+
+
+/* contact */
+
+.divider4{
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.divider4::before, .divider4::after{
+  flex: 1;
+  content: '';
+  padding: 0.1px;
+  margin: 4px;
+  background-color: black;
+}
+
+.contact .con{
+  text-align: center;
+  margin-top: 70px;
+}
+
+.message, .iconn{
+  margin-top: 50px;
+  text-align: center;
+}
